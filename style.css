@@ -1,0 +1,39 @@
+#body {
+    background-color: rgb(48, 57, 70);
+}
+
+#desgraca {
+    font-size: 30px;
+    color: white;
+}
+
+#subdiv {
+    margin: 250px;
+}
+
+#Y {
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#Y:hover {
+    background-color: #eaf5ff;
+    color: rgb(72, 176, 245);
+    cursor: pointer;
+    animation: mexe 0.3s ease;
+    }
+
+    @keyframes mexe {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-5px, 0); }
+    50% { transform: translate(5px, 0); }
+    }
+
+#Y:active {
+    transform: scale(0.95);
+    transform: translateY(2px);
+}
