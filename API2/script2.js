@@ -31,3 +31,6 @@ for (let mes = 1; mes <= 12; mes++) {
         console.error("Erro:", error);
       });
     }
+
+diaSelect.addEventListener("change", buscarCotacao);
+mesSelect.addEventListener("change", buscarCotacao);
